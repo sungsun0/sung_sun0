@@ -22,45 +22,36 @@
             border-image-outset: 10px;
             border-image-repeat: round;
             padding: 15px 15px 10px 15px;
+            position: absolute;
         }
 
         .article-container {
             width: 100%;
             height: 100%;
-            display: block;
         }
 
         .inner-container {
             width: 100%;
             height: 100%;
-            display: block;
-            margin: 0 auto;
-            background-color: pink;
+            display: grid;
+            grid-template-columns: 41% 62%;
         }
 
-        .image-container {
-            height: 100%;
-            display: table;
-            float: flex;
-        }
 
-        .image-container img {
-            height: 100%;
+
+        .inner-container .oone img {
+            height: 220px;
             width: 167px;
-            display: table-cell;
-            vertical-align: middle;
         }
 
-        .info {
-            float: right;
-            height: 100%;
+        .inner-container .otwo {
+            text-align: center;
         }
 
-        .info a {
-            height: 100%;
-            display: table;
-            padding: 0;
-        }
+        .inner-container .otwo a {
+            
+            
+        }        
 
 
     </style>
@@ -69,15 +60,21 @@
     <article>
         <div class="article-container">
             <div class="inner-container">
-                <div class="image-container">
+                <div class="oone">
                     <img src="https://files.catbox.moe/sutkj7.png">
                 </div>
+                
+                <div class="otwo">
+                    <p><b>𑣲⋆──.ᐟ.ᐟ</b></p>
+                    <p>hello! i am <b>sunny ☆</b></p>
+                    <p> <a href="https://pronouns.cc/@sung_sun0" style="color: silver; text-decoration: none;">they</a> . <i>minor</i> . <u>audhd</u> . <a>tonetags</a> pref but not needed~</p>
+                    <br>
+                    <p>ext. | interests | directory</p>
+                    <br>
+                    <img src="https://files.catbox.moe/pisg4h.jpg" width="110px" height="65px">
+                </div>
             </div>
-            <ul class="info">
-                <a><li><b>𑣲⋆──.ᐟ.ᐟ</b></li></a>
-                <a><li>hello! i am <b>sunny ☆</b></li></a>
-                <a><li>they . <i>minor</i> . <u>audhd</u> . tonetags pref but not needed~</li></a>
-            </ul>
+
         </div>
     </article>
 </body>
