@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Sunny's Interests ♡</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         * {
             margin: 0;
@@ -10,7 +11,10 @@
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            margin: 7% 430px 107% 430px;
+            min-height: 1300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-image: url(https://i.pinimg.com/1200x/fc/46/33/fc4633d66717536ded15e328be0440fe.jpg);
             background-size: cover;
             background-repeat: no-repeat;
@@ -24,7 +28,6 @@
             border-image-outset: 10px;
             border-image-repeat: round;
             padding: 15px 15px 10px 15px;
-            position: absolute;
             background-color: white;
         }
 
@@ -72,6 +75,34 @@
         hr.solid {
             border-top: 1px solid black;
         }
+
+        @media (max-width: 600px) {
+            article {
+                width: 89%;
+            }
+
+            .inner-container {
+                width: 100%;
+                height: 100%;
+                display: grid;
+            }
+
+            body {
+                min-height: 1400px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .inner-container .oone img {
+                height: 90%;
+                width: 80%;
+            }
+
+            .inner-container .otwo img {
+                height: 110px;
+                width: 110px;
+            }
+        }
     </style>
 </head>
 
@@ -110,7 +141,7 @@
                     <p style="font-size: 10px;">ㅤ</p>
                     <p>I love SO MANY DRAMAS AUGHHHHH but i'd say my <b>tops</b> are kinnporsche, my engineer, my school president, lita, between us, jack & joker, duang with you, and weak hero class BUT BUT CHECK OUT <b><a href="">MYDRAMALIST</a></b> TO SEE MY FULL LIST OF DRAMAS I FUCKING TWEAK OUT ABOUT and hopefully i'll make my website a reality (i just need to figure out how to make it responsive 😭) I will NOT be making an actor stan list because it is too long and i love them all so dearly, hoewever I LOVE JEFF SATUR AND TEETEEPOR AND YINWAR SO MUCH YOU DON'T UNDERSTAND THE HUGE HYPERFIXATION I HAVE ON THEM OML</p>
                     <p align="center"><b>☆☆☆</b></p>
-                    <img width="145" height="145" src="https://i.pinimg.com/1200x/05/b1/56/05b156c74e9ec68d08b3e0b6c463520e.jpg"><img width="145" height="145" src="https://files.catbox.moe/9n6sy4.jpg"><img width="145" height="145" src="https://files.catbox.moe/4h9p1m.jpg">
+                    <p align="center"><img width="145" height="145" src="https://i.pinimg.com/1200x/05/b1/56/05b156c74e9ec68d08b3e0b6c463520e.jpg"><img width="145" height="145" src="https://files.catbox.moe/9n6sy4.jpg"><img width="145" height="145" src="https://files.catbox.moe/4h9p1m.jpg"></p>
                     <p align="center"><b><i>I'm in my black tie~</i></b></p>
                 </div>
             </div>
